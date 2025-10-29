@@ -2,60 +2,61 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Responsive Image Gallery</title>
-    <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Responsive Image Gallery</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-    
-    <div class="main">
-        <div class="main-1">
-            <h1>📸 Image Gallery</h1>
-            <div class="filter-buttons">
-                <button data-filter="all" class="active">All</button>
-                <button data-filter="nature">Nature</button>
-                <button data-filter="city">City</button>
-                <button data-filter="animals">Animals</button>
-            </div>
-        </div>
-        <div class="main-2" >
-            <img src="img/img-1.jpg" alt="" data-category="city">
-            <img src="img/img-2.jpg" alt="" data-category="nature">
-            <img src="img/img-3.jpg" alt="" data-category="animals">
-            <img src="img/img-4.jpg" alt="" data-category="animals">
-            <img src="img/img-5.jpg" alt="" data-category="nature">
-            <img src="img/img-6.jpg" alt="" data-category="nature">
-            <img src="img/img-7.jpg" alt="" data-category="nature">
-            <img src="img/img-8.jpg" alt="" data-category="nature">
-            <img src="img/img-9.jpg" alt="" data-category="city">
-            <img src="img/img-10.jpg" alt="" data-category="nature">
-            <img src="img/img-11.jpg" alt="" data-category="city">
-            <img src="img/img-12.jpg" alt="" data-category="animals">
-            <img src="img/img-13.jpg" alt="" data-category="city">
-            <img src="img/img-14.jpg" alt="" data-category="animals">
-            <img src="img/img-15.jpg" alt="" data-category="animals">
-            <img src="img/img-16.jpg" alt="" data-category="nature">
-            <img src="img/img-17.jpg" alt="" data-category="city">
-            <img src="img/img-18.jpg" alt="" data-category="anime">
-            <img src="img/img-19.jpg" alt="" data-category="anime">
-            <img src="img/img-20.jpg" alt="" data-category="anime">
-        </div>
 
-        <div class="img-box">
-          <div class="img-box-1">
-            <span id="close">&times;</span>
-          </div>
-            <img id="img" src="" alt="">
-            <div class="navigation">
-                <button class="prev">❮</button>
-                <button class="next">❯</button>
-            </div>
-        </div>
+  <div class="main">
+    <div class="main-1">
+      <h1>📸 Image Gallery</h1>
+      <div class="filter-buttons">
+        <button data-filter="all" class="active">All</button>
+        <button data-filter="nature">Nature</button>
+        <button data-filter="city">City</button>
+        <button data-filter="animals">Animals</button>
+        <button data-filter="anime">Anime</button>
+      </div>
+    </div>
+    <div class="main-2">
+      <img src="img/img-1.webp" alt="city view" data-category="city" loading="lazy">
+      <img src="img/img-2.webp" alt="nature view" data-category="nature" loading="lazy">
+      <img src="img/img-3.webp" alt="lion" data-category="animals" loading="lazy">
+      <img src="img/img-4.webp" alt="elephant" data-category="animals" loading="lazy">
+      <img src="img/img-5.webp" alt="lake" data-category="nature" loading="lazy">
+      <img src="img/img-6.webp" alt="forest" data-category="nature" loading="lazy">
+      <img src="img/img-7.webp" alt="mountains" data-category="nature" loading="lazy">
+      <img src="img/img-8.webp" alt="green forest" data-category="nature" loading="lazy">
+      <img src="img/img-9.webp" alt="city street" data-category="city" loading="lazy">
+      <img src="img/img-10.webp" alt="waterfall" data-category="nature" loading="lazy">
+      <img src="img/img-11.webp" alt="city night" data-category="city" loading="lazy">
+      <img src="img/img-12.webp" alt="tiger" data-category="animals" loading="lazy">
+      <img src="img/img-13.webp" alt="buildings" data-category="city" loading="lazy">
+      <img src="img/img-14.webp" alt="deer" data-category="animals" loading="lazy">
+      <img src="img/img-15.webp" alt="bird" data-category="animals" loading="lazy">
+      <img src="img/img-16.webp" alt="sunset" data-category="nature" loading="lazy">
+      <img src="img/img-17.webp" alt="city sunset" data-category="city" loading="lazy">
+      <img src="img/img-18.webp" alt="anime sword" data-category="anime" loading="lazy">
+      <img src="img/img-19.webp" alt="anime girl" data-category="anime" loading="lazy">
+      <img src="img/img-20.webp" alt="anime scene" data-category="anime" loading="lazy">
     </div>
 
-    <script src="app.js"></script>
+    <div class="img-box">
+      <div class="img-box-1">
+        <span id="close">&times;</span>
+      </div>
+      <img id="img" src="" alt="">
+      <div class="navigation">
+        <button class="prev">❮</button>
+        <button class="next">❯</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
 </body>
 
 </html>
